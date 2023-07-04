@@ -2,6 +2,9 @@ public class SmartWatch extends SmartDevice {
     int ritmoCardiaco;
     boolean wifi;
 
+    public SmartWatch() {
+        super();
+    }
     public SmartWatch(String resolucionPixeles, String marca, boolean camara, int ritmoCardiaco, boolean wifi) {
         super(resolucionPixeles, marca, camara);
         this.ritmoCardiaco = ritmoCardiaco;

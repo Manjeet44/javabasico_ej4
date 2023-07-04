@@ -3,6 +3,9 @@ public class SmartDevice {
     String marca;
     boolean camara;
 
+    public SmartDevice(){
+
+    }
     public SmartDevice(String resolucionPixeles, String marca, boolean camara) {
         this.resolucionPixeles = resolucionPixeles;
         this.marca = marca;
